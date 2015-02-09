@@ -1,0 +1,26 @@
+{
+  "name": "bitmap_proj",
+  "version": "0.1.0",
+  "description": "Bitmap Project to transform a Bitmap in Node",
+  "main": "bitmap_reader.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rahul1346"
+  },
+  "author": "Rahul Sharma",
+  "license": "MIT"
+  "devDependencies": {
+     "chai": "^1.10.0",
+     "grunt": "^0.4.5",
+     "grunt-cli": "^0.1.13",
+     "grunt-contrib-jshint": "^0.11.0",
+     "grunt-simple-mocha": "^0.4.0",
+     "mocha": "^2.1.0"
+  }
+}
